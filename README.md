@@ -6,14 +6,14 @@ This repository lets you try out your first pull request.
 
 ## Table of Contents
 - [Students](#students)
-  - [2024/25](#year-202425)
+  - [2025](#year-2025)
   - [Template](#template)
 - [Instructions](#instructions)
 - [Credits](#credits)
 
 ## Students
 
-### <a name="year-202425"></a>2024/25
+### <a name="year-2025"></a>2025
 | Personal number | Done |
 |:----------:|:----------:|
 |  |  |
@@ -37,10 +37,11 @@ $ git clone https://github.com/YOUR_USERNAME/gitrepotutorial.git
 $ cd gitrepotutorial
 $ git checkout -b BRANCH_NAME
 ```
-4. In the cloned repository, navigate to the sub-folder :file_folder:**students/YEAR/** and create a new **.md** file with your personal number as the filename.  
+4. In the cloned repository, navigate to the sub-folder :file_folder:**students/YEAR/** and create a new **.md** file with your personal number as the filename. 
+If there is no folder with actual year, just create a new one.
 *(e.g. 'R12345.md')*
-5. Write your name inside this file.  
-*(e.g. 'John Doe')*
+5. Write your initials inside this file.  
+*(e.g. 'JD')*
 6. Now that we've modified the staging area, we need to stage the changes and commit them.
 ```bash
 $ git add .
